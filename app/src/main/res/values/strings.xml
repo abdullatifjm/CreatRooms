@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CreatRoom</string>
+    <string name="idroom">Id Room</string>
+    <string name="roomName">Room Name</string>
+    <string name="passroom">Master Password</string>
+    <string name="databaseRoomId">Database Room Id</string>
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        >
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/idroom"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:hint="@string/idroom"
+            android:textAlignment="center"
+            android:inputType="text"
+            android:layout_margin="8dp"
+            android:singleLine="true"
+            android:textSize="16sp"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/roomName"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:hint="@string/roomName"
+            android:textAlignment="center"
+            android:inputType="text"
+            android:layout_margin="8dp"
+            android:singleLine="true"
+            android:textSize="16sp"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/passroom"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:hint="@string/passroom"
+        android:textAlignment="center"
+        android:inputType="text"
+        android:layout_margin="8dp"
+        android:singleLine="true"
+        android:textSize="16sp"
+        />
+</android.support.design.widget.TextInputLayout>
+<LinearLayout
+    android:id="@+id/lineIdDataRoom"
+    android:layout_width="350dp"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="16dp"
+    android:visibility="gone">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/databaseRoomId"
+        android:layout_gravity="center"
+        android:textSize="16sp"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:textSize="16sp"
+        android:id="@+id/textDatabaseRoomId"
+        />
+
+</LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="add"
+        android:id="@+id/add"/>
+
+</LinearLayout>
